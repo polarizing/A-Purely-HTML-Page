@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A Purely HTML Page</title>
+</head>
+
+<body>
+    <font color="#3b3c40" face="Times">
+        <!-- general body text color -->
+        <table border="0" cellspacing="0" width="100%">
+            <!-- Functionally acts as top/bottom padding -->
+            <tr>
+                <td height="5" colspan="3"></td>
+            </tr>
+            <!-- Hack to act as margin: 0 auto; -->
+            <tr>
+                <td></td>
+                <td width="500">
+                    <font color="#4d4e53">
+                    <video width="100%" src="videos/line_final_2.mp4" autoplay>
+						Sorry, your browser doesn't support embedded videos, 
+						but don't worry, you can <a href="videos/line_final_2.mp4">download it</a>
+						and watch it with your favorite video player!
+					</video>
+<h1>This is a webpage.</h1></font>
+                    <font color="#4d4e53">
+                        <h2>It's responsive and written only in HTML.</h2></font>
+                    <section>
+                        <p>There are no external or internal or inline stylesheets or scripts.</p>
+                        <p>
+                            <font color="#4d4e53"><strong>There are only HTML tags and their attributes. </strong></font>
+<!--                             <a target="_blank" href="view-source:file:///Users/fullstack/Documents/commlab/week_1/only_html/index.html">
+                                <font color="#217AC0">[Source Code]</font>
+                            </a> -->
+                        </p>
+                        <p>The purpose of this page is to show some complex things that HTML can do on its own, without the need for fancy designs, layouts, or scripts. It is also meant as an introduction to some of the most widely used and common markup tags. Some of the things shown on this page (especially regarding styling and positioning) is not conventional, deprecated or obsolete and should never be used. Please see the extended section at the bottom of the page. <sup><a href="#extended">read more ...</a></sup></p>
+                    </section>
+                    <font color="#4d4e53">
+                        <h3>Attribute-Styles and Text Formatting</h3></font>
+                    <p>Without any CSS, we can set the <font face="helvetica">font-family</font> or the
+                        <font size="6">size</font> or the
+                        <font color="blue">c</font>
+                        <font color="red">o</font>
+                        <font color="green">l</font>
+                        <font color="brown">o</font>
+                        <font color="orange">r</font> through <code>&lt;font face=... size=... color=...&gt;</code>.</p>
+                    <p>We can give <em>emphasis</em> to some words by using the <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/em"><font color="#217AC0">&lt;em&gt;</font></a></code> tag or for <strong>even more power</strong>, try the
+                        <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/strong">
+                            <font color="#217AC0"><code>&lt;strong&gt;</code></font>
+                        </a> tag!</p>
+                    <!--                 <hr />
+ -->
+                    <p>How about something more esoteric, like the molecular formula for glucose C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> or the pythagorean theorem a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>. You can use the
+                        <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/sup">
+                            <font color="#217AC0"><code>&lt;sup&gt;</code></font>
+                        </a> or
+                        <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/sub">
+                            <font color="#217AC0"><code>&lt;sub&gt;</code></font>
+                        </a> tags to denote superscript and subscript respectively.</p>
+                    <p>We can even add romanization to Asian characters using  <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/ruby">
+                            <font color="#217AC0"><code>&lt;ruby&gt;</code></font>
+                        </a>. (Chrome 5.0+)</p>
+                        <p align="center">
+                    		<ruby>
+							我 <rt> Wǒ</rt>
+							喜<rt> xǐ </rt>
+							欢<rt> huan </rt>
+							HTML<rt> HTML</rt>
+							因 <rt>yīn</rt>
+							为<rt>wèi</rt>
+							它<rt>tā</rt>
+							支<rt>zhī</rt>
+							持<rt>chí</rt>
+							拼<rt>pīn</rt>
+							音<rt>yīn</rt>
+							.<rt></rt>
+
+							</ruby>
+							</p>
+                    <marquee>When things get really boring, shake it up with this deprecated
+                        <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/marquee">
+                            <font color="#217AC0"><code>&lt;marquee&gt;</code></font>
+                        </a> tag. (just kidding, don't really do this.)</marquee>
+                    <p>
+                        <mark><u>E</u>v<u>e</u>r<u>y</u></mark>
+                        <u>o</u>t<u>h</u>e<u>r</u>
+                        <mark><u>c</u>h<u>a</u>r<u>a</u>c<u>t</u>e<u>r</u></mark>
+                        <u>i</u>n
+                        <mark>t<u>h</u>i<u>s</u></mark>
+                        <u>s</u>e<u>n</u>t<u>e</u>n<u>c</u>e
+                        <mark>i<u>s</u></mark> <u>u</u>n<u>d</u>e<u>r</u>l<u>i</u>n<u>e</u>d
+                        <mark>w<u>i</u>t<u>h</u></mark> <u>t</u>h<u>e</u>
+                        <mark>
+                            <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/u">
+                                <font color="#217AC0"><u><</u>u<u>></u></mark>
+                        </font>
+                        </a> <u>t</u>a<u>g</u>
+                        <mark><u>a</u>n<u>d</u></mark> <u>e</u>v<u>e</u>r<u>y</u>
+                        <mark><u>o</u>t<u>h</u>e<u>r</u></mark> <u>w</u>o<u>r</u>d
+                        <mark>i<u>s</u></mark> <u>h</u>i<u>g</u>h<u>l</u>i<u>g</u>h<u>t</u>e<u>d</u>
+                        <mark><u>w</u>i<u>t</u>h<u></mark> </u>t<u>h</u>e
+                            <mark>
+                                <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/mark">
+                                    <font color="#217AC0">
+                                        <<u>m</u>a<u>r</u>k<u>></u></mark>
+                            </font>
+                            </a> <u>t</u>a<u>g</u>
+                            <mark><u>f</u>o<u>r</u></mark> <u>n</u>o
+                            <mark>g<u>o</u>o<u>d</u></mark> <u>r</u>e<u>a</u>s<u>o</u>n
+                            <mark>w<u>h</u>a<u>t</u>s<u>o</u>e<u>v</u>e<u>r</u>.</mark>
+                    </p>
+                    <p align="center">We can even paint <code>body</code> or <code>table</code> elements with
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">
+                            <font color="#217AC0"><code>bgcolor</code></font>
+                        </a> and
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">
+                            <font color="#217AC0"><code>background</code></font>
+                        </a> attributes to make pixel art.</p>
+                    <hr>
+                    <TABLE cellpadding="5" cellspacing="1" align="center" border="0">
+                        <TR>
+                            <TD bgcolor="#1CBF18"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#3D3079"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#AFBE8A"> </TD>
+                            <TD bgcolor="#EE1750"> </TD>
+                            <TD bgcolor="#EE9DB4"> </TD>
+                            <TD bgcolor="#E4F12A"> </TD>
+                            <TD bgcolor="#88FBEB"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#E5CC58"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#591456"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#2AF508"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#B8ADF4"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                        </TR>
+                        <TR>
+                            <TD bgcolor="#A9BC08"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#ECDE23"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#2C4584"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#F875CD"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#089C4D"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#D57008"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#C4FC00"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#866854"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                        </TR>
+                        <TR>
+                            <TD bgcolor="#655F04"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#B9C33F"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#C87A5D"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#3B3C72"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#DC1210"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#8350D3"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#E286B0"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#45BE64"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                        </TR>
+                        <TR>
+                            <TD bgcolor="#6030A4"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#D66B8C"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#379497"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#44A35F"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#4BEA0A"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#8DE811"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#AA92A6"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#697244"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                        </TR>
+                        <TR>
+                            <TD bgcolor="#2AA2EC"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#2E3A0D"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#E87351"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#601BD7"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#324FC8"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#BC6E88"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#E0C8D6"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#413F3E"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                        </TR>
+                        <TR>
+                            <TD bgcolor="#6ACD65"> </TD>
+                            <TD bgcolor="#990BF7"> </TD>
+                            <TD bgcolor="#909599"> </TD>
+                            <TD bgcolor="#39C4AB"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#BDA0B4"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#FE1CA2"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#0EBC82"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#232E8F"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#434E75"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#3ADA81"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                        </TR>
+                        <TR>
+                            <TD bgcolor="#F51CE7"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#69F2B8"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#D4EDD9"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#E0DA10"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#BC36DF"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#822A64"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#78D7EC"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#0337B8"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                        </TR>
+                        <TR>
+                            <TD bgcolor="#737673"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#62E49C"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#8A1E29"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#44E437"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#1F0C0F"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#3CD506"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#CC5E1B"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#48D580"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                        </TR>
+                        <TR>
+                            <TD bgcolor="#17B730"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#5CF82A"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#089DFB"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#CCBE63"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#D919D4"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#31387B"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#23AC2F"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#E76DFF"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                        </TR>
+                        <TR>
+                            <TD bgcolor="#625BAE"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#6A4249"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#C21748"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#290386"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#B34085"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#3850AE"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#B72A31"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                        </TR>
+                        <TR>
+                            <TD bgcolor="#0A24DA"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#AA7563"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#7C2AAC"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#F190B7"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#C8A621"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#FF1130"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#1AED1A"> </TD>
+                            <TD bgcolor="#636152"> </TD>
+                            <TD bgcolor="#387CE0"> </TD>
+                            <TD bgcolor="#F51636"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="#6F9ABF"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                            <TD bgcolor="ffffff"> </TD>
+                        </TR>
+                    </TABLE>
+                    <br>
+                    <details>
+                        <summary>Click here to see script.</summary>
+                        <p>I wrote this script in Python 2 with help from the
+                            <a href="https://www.decalage.info/python/html">
+                                <font color="#217AC0">HTML.py</a>
+                            </font> library.
+                            <pre><code>table_data = [ ... a list of lists representing 
+		the grid is omitted in this sample code 
+		to save space, each cell in the grid 
+		is a string. An empty string denotes
+		the color white and a string with a space
+		denotes a random color ...]
+
+import random
+
+new_table_data = []
+for idx, row in enumerate(table_data):
+    new_table_data.append([])
+    for idy, column in enumerate(row):
+        if column == " ":
+            r = lambda: random.randint(0,255)
+            # generate hex color
+            color = str('#%02X%02X%02X' % (r(),r(),r()))
+            new_table_data[idx].append(color) # random color
+        else:
+            new_table_data[idx].append("ffffff") # white
+t = HTML.Table()
+for row in new_table_data:
+    colored_cells = []
+    for cell in row:
+        colored_cells.append( HTML.TableCell(' ', bgcolor=cell) )
+    t.rows.append(colored_cells)
+htmlcode = str(t)
+print htmlcode</code></pre></p>
+                    </details>
+                    <hr>
+                    <p>ASCII art is fascinating. You can use the
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre">
+                            <font color="#217AC0"><code>pre</code></a>
+                        </font> tag.</p>
+                    <table border="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td></td>
+                            <td width="200"><pre>
+      .....           .....
+  ,ac8DDDD88b,     ,c88DDDD8ba,
+ d8P"      "Y8b, ,d8P"      "Y8b
+cP'           "8a8"           `Yc
+8(              "              )8
+I8                             8I
+ Yb,                         ,dP
+  "8a,                     ,a8"
+    "8a,                 ,a8"
+      "Yba             adP"   Kevin Li
+        `Y8a         a8P'
+          `88,     ,88'
+            "8b   d8"
+             "8b d8"
+              `888'
+                "</pre></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <p>To put this together, let's make some random generative art.</p>
+                    <p><font face="Impact" size="1" color="#CB1C0E">L</font><font face="Arial" size="7" color="#8AA04D">o</font><font face="Helvetica" size="2" color="#8575D5">r</font><font face="Verdana" size="7" color="#AE5058">e</font><font face="Courier New" size="1" color="#1C17F6">m</font><font face="Verdana" size="1" color="#16C628"> </font><font face="Helvetica" size="3" color="#FAF172">i</font><font face="Arial Black" size="6" color="#E1D7C6">p</font><font face="Times New Roman" size="1" color="#3535DC">s</font><font face="Garamond" size="4" color="#9758B3">u</font><font face="Helvetica" size="7" color="#3BC626">m</font><font face="Times New Roman" size="3" color="#A8063F"> </font><font face="Georgia" size="5" color="#67182E">d</font><font face="Palatino" size="7" color="#E6AF28">o</font><font face="Trebuchet MS" size="5" color="#0291E4">l</font><font face="Garamond" size="3" color="#C3950C">o</font><font face="Helvetica" size="5" color="#3F8F6D">r</font><font face="Comic Sans MS" size="7" color="#907417"> </font><font face="Impact" size="2" color="#C0E330">s</font><font face="Palatino" size="2" color="#A00B2A">i</font><font face="Arial" size="1" color="#B61286">t</font><font face="Trebuchet MS" size="3" color="#DFB6E4"> </font><font face="Arial Black" size="5" color="#22C1F7">a</font><font face="Bookman" size="6" color="#B3E823">m</font><font face="Verdana" size="3" color="#C8B054">e</font><font face="Times New Roman" size="2" color="#00C384">t</font><font face="Palatino" size="3" color="#95A398">,</font><font face="Arial Black" size="2" color="#1E927E"> </font><font face="Impact" size="6" color="#417A5D">c</font><font face="Palatino" size="2" color="#0A216D">o</font><font face="Impact" size="3" color="#7CD8CB">n</font><font face="Palatino" size="6" color="#C81054">s</font><font face="Avant Garde" size="5" color="#CE99B2">e</font><font face="Arial" size="5" color="#A418DC">c</font><font face="Bookman" size="1" color="#A529E6">t</font><font face="Avant Garde" size="7" color="#833C0E">e</font><font face="Comic Sans MS" size="7" color="#95FD63">t</font><font face="Comic Sans MS" size="1" color="#8E54D5">u</font><font face="Times New Roman" size="3" color="#5DA623">r</font><font face="Arial" size="5" color="#E21B4F"> </font><font face="Georgia" size="5" color="#CB1A5B">a</font><font face="Comic Sans MS" size="4" color="#B53654">d</font><font face="Georgia" size="1" color="#9EC6D7">i</font><font face="Avant Garde" size="5" color="#0FD479">p</font><font face="Helvetica" size="6" color="#E7DABD">i</font><font face="Verdana" size="1" color="#94CE2B">s</font><font face="Courier New" size="1" color="#1C4202">c</font><font face="Garamond" size="2" color="#8FAFF9">i</font><font face="Georgia" size="6" color="#ABF4D5">n</font><font face="Comic Sans MS" size="3" color="#429629">g</font><font face="Courier New" size="2" color="#0956B0"> </font><font face="Verdana" size="7" color="#98AD74">e</font><font face="Helvetica" size="5" color="#AE18AC">l</font><font face="Helvetica" size="5" color="#BF84DD">i</font><font face="Verdana" size="7" color="#4B45F1">t</font><font face="Comic Sans MS" size="7" color="#A76205">,</font><font face="Comic Sans MS" size="3" color="#7A5572"> </font><font face="Palatino" size="4" color="#81FC53">s</font><font face="Bookman" size="1" color="#EF8EDF">e</font><font face="Garamond" size="2" color="#5B2088">d</font><font face="Impact" size="2" color="#219DAC"> </font><font face="Bookman" size="6" color="#A55D6A">d</font><font face="Trebuchet MS" size="1" color="#81191B">o</font><font face="Courier New" size="2" color="#E124E0"> </font><font face="Comic Sans MS" size="2" color="#6028A6">e</font><font face="Georgia" size="5" color="#DD7B7D">i</font><font face="Helvetica" size="1" color="#2698F7">u</font><font face="Palatino" size="7" color="#1C6AEE">s</font><font face="Palatino" size="5" color="#F760BD">m</font><font face="Georgia" size="1" color="#60BEF6">o</font><font face="Courier New" size="1" color="#9E7D77">d</font><font face="Arial" size="4" color="#5A5CAC"> </font><font face="Impact" size="7" color="#723F2B">t</font><font face="Impact" size="7" color="#B8A282">e</font><font face="Impact" size="1" color="#59D28C">m</font><font face="Times New Roman" size="3" color="#14A1B1">p</font><font face="Arial Black" size="4" color="#852952">o</font><font face="Verdana" size="1" color="#6B7AB5">r</font><font face="Arial" size="5" color="#34790E"> </font><font face="Arial Black" size="2" color="#225C25">i</font><font face="Bookman" size="7" color="#B9BAB8">n</font><font face="Impact" size="2" color="#BFD370">c</font><font face="Helvetica" size="6" color="#A58271">i</font><font face="Garamond" size="2" color="#ED138C">d</font><font face="Arial" size="3" color="#305259">i</font><font face="Comic Sans MS" size="7" color="#A2DDF1">d</font><font face="Courier New" size="5" color="#BEEFC6">u</font><font face="Georgia" size="1" color="#824364">n</font><font face="Avant Garde" size="1" color="#B9DE41">t</font><font face="Helvetica" size="3" color="#B931F0"> </font><font face="Arial Black" size="5" color="#450D3A">u</font><font face="Verdana" size="2" color="#D40F99">t</font><font face="Arial" size="5" color="#5898FD"> </font><font face="Comic Sans MS" size="6" color="#35FD51">l</font><font face="Georgia" size="2" color="#800BD1">a</font><font face="Garamond" size="2" color="#CC2AEA">b</font><font face="Bookman" size="7" color="#16E20D">o</font><font face="Avant Garde" size="5" color="#E0C015">r</font><font face="Arial" size="7" color="#B00BE9">e</font><font face="Verdana" size="6" color="#4C8851"> </font><font face="Verdana" size="7" color="#1D60DC">e</font><font face="Trebuchet MS" size="4" color="#DFB4A1">t</font><font face="Verdana" size="3" color="#A7345B"> </font><font face="Trebuchet MS" size="5" color="#6D17C1">d</font><font face="Courier New" size="5" color="#4785D2">o</font><font face="Palatino" size="2" color="#35E54B">l</font><font face="Courier New" size="7" color="#8BD33E">o</font><font face="Times New Roman" size="6" color="#E6DA99">r</font><font face="Courier New" size="1" color="#35F674">e</font><font face="Times New Roman" size="4" color="#CDDE9E"> </font><font face="Avant Garde" size="1" color="#E1471D">m</font><font face="Arial Black" size="5" color="#56EB46">a</font><font face="Verdana" size="5" color="#EBF7FC">g</font><font face="Bookman" size="2" color="#101C33">n</font><font face="Bookman" size="2" color="#3F6176">a</font><font face="Arial" size="5" color="#EE932B"> </font><font face="Bookman" size="5" color="#A20C44">a</font><font face="Helvetica" size="4" color="#7FF8DE">l</font><font face="Courier New" size="6" color="#EFBFB6">i</font><font face="Verdana" size="2" color="#A0677F">q</font><font face="Trebuchet MS" size="7" color="#3B311B">u</font><font face="Times New Roman" size="4" color="#7E73F9">a</font><font face="Arial Black" size="5" color="#3335E6">.</font><font face="Bookman" size="4" color="#B58F52"> </font><font face="Georgia" size="7" color="#ADB051">U</font><font face="Arial Black" size="2" color="#7079A4">t</font><font face="Verdana" size="5" color="#E7A948"> </font><font face="Georgia" size="2" color="#96F857">e</font><font face="Arial" size="7" color="#E7B058">n</font><font face="Helvetica" size="3" color="#966B32">i</font><font face="Avant Garde" size="4" color="#C0B061">m</font><font face="Arial Black" size="6" color="#04F07A"> </font><font face="Arial" size="7" color="#195E6A">a</font><font face="Comic Sans MS" size="2" color="#78BA16">d</font><font face="Avant Garde" size="3" color="#0E419E"> </font><font face="Impact" size="2" color="#7858C8">m</font><font face="Helvetica" size="3" color="#3429FB">i</font><font face="Verdana" size="2" color="#AA1D65">n</font><font face="Arial" size="5" color="#A349AB">i</font><font face="Comic Sans MS" size="4" color="#D4910A">m</font><font face="Verdana" size="7" color="#40868F"> </font><font face="Arial Black" size="4" color="#8CB3AB">v</font><font face="Georgia" size="3" color="#30E6A7">e</font><font face="Palatino" size="4" color="#F9E112">n</font><font face="Helvetica" size="7" color="#414F66">i</font><font face="Trebuchet MS" size="7" color="#FF2416">a</font><font face="Palatino" size="2" color="#4574FB">m</font><font face="Palatino" size="1" color="#B3C8BD">,</font><font face="Trebuchet MS" size="3" color="#94B185"> </font><font face="Helvetica" size="1" color="#0C3599">q</font><font face="Arial" size="2" color="#DC7212">u</font><font face="Bookman" size="5" color="#42BEC8">i</font><font face="Trebuchet MS" size="4" color="#2EA6AF">s</font><font face="Arial" size="1" color="#EDAA26"> </font><font face="Bookman" size="5" color="#B82A4C">n</font><font face="Avant Garde" size="2" color="#4D3F94">o</font><font face="Helvetica" size="6" color="#E9CDD3">s</font><font face="Times New Roman" size="2" color="#1AC6A2">t</font><font face="Arial" size="7" color="#287841">r</font><font face="Helvetica" size="1" color="#C9BF5B">u</font><font face="Arial Black" size="7" color="#8DFA4B">d</font><font face="Garamond" size="1" color="#5EA2F0"> </font><font face="Bookman" size="2" color="#685273">e</font><font face="Trebuchet MS" size="3" color="#D54812">x</font><font face="Georgia" size="5" color="#66F989">e</font><font face="Arial Black" size="4" color="#0051DF">r</font><font face="Verdana" size="2" color="#FC905F">c</font><font face="Helvetica" size="4" color="#C341B4">i</font><font face="Verdana" size="5" color="#5FD157">t</font><font face="Verdana" size="6" color="#76678A">a</font><font face="Helvetica" size="1" color="#A27F16">t</font><font face="Times New Roman" size="2" color="#22CB01">i</font><font face="Georgia" size="2" color="#601ABC">o</font><font face="Courier New" size="1" color="#9011DE">n</font><font face="Arial Black" size="4" color="#0E5988"> </font><font face="Trebuchet MS" size="6" color="#47F73C">u</font><font face="Avant Garde" size="3" color="#8D5D97">l</font><font face="Bookman" size="1" color="#F9C086">l</font><font face="Comic Sans MS" size="3" color="#11BCAF">a</font><font face="Bookman" size="2" color="#F70FE9">m</font><font face="Helvetica" size="1" color="#AE1152">c</font><font face="Verdana" size="6" color="#A7DEB0">o</font><font face="Comic Sans MS" size="7" color="#137E80"> </font><font face="Helvetica" size="6" color="#2407D9">l</font><font face="Garamond" size="2" color="#5F9701">a</font><font face="Palatino" size="1" color="#D64DEA">b</font><font face="Palatino" size="1" color="#F3367A">o</font><font face="Arial" size="6" color="#3FEEF0">r</font><font face="Helvetica" size="7" color="#E0BC68">i</font><font face="Garamond" size="3" color="#9E82D6">s</font><font face="Bookman" size="5" color="#F9F3EA"> </font><font face="Verdana" size="5" color="#286D10">n</font><font face="Impact" size="4" color="#B4F014">i</font><font face="Palatino" size="5" color="#2C4EE7">s</font><font face="Avant Garde" size="2" color="#2A0803">i</font><font face="Impact" size="7" color="#DD06C2"> </font><font face="Trebuchet MS" size="2" color="#096FFE">u</font><font face="Bookman" size="6" color="#D5D2A5">t</font><font face="Courier New" size="7" color="#2F759D"> </font><font face="Bookman" size="5" color="#B0B207">a</font><font face="Arial" size="5" color="#835736">l</font><font face="Comic Sans MS" size="6" color="#3A89FB">i</font><font face="Verdana" size="1" color="#B3E8FC">q</font><font face="Times New Roman" size="6" color="#9178B8">u</font><font face="Avant Garde" size="6" color="#3A3E91">i</font><font face="Palatino" size="4" color="#CDF498">p</font><font face="Helvetica" size="1" color="#85C993"> </font><font face="Avant Garde" size="4" color="#7566E0">e</font><font face="Arial" size="1" color="#ACB852">x</font><font face="Garamond" size="5" color="#108F90"> </font><font face="Avant Garde" size="1" color="#26DDC2">e</font><font face="Impact" size="5" color="#1B4AC3">a</font><font face="Impact" size="7" color="#A4516F"> </font><font face="Times New Roman" size="7" color="#9B6DBF">c</font><font face="Helvetica" size="3" color="#269B1D">o</font><font face="Times New Roman" size="5" color="#99508F">m</font><font face="Times New Roman" size="1" color="#98078B">m</font><font face="Arial Black" size="2" color="#E49D8E">o</font><font face="Garamond" size="2" color="#6C1D05">d</font><font face="Palatino" size="7" color="#57F284">o</font><font face="Courier New" size="1" color="#2FB766"> </font><font face="Georgia" size="2" color="#E047FF">c</font><font face="Impact" size="6" color="#6487D4">o</font><font face="Georgia" size="4" color="#EF7AC1">n</font><font face="Comic Sans MS" size="2" color="#C512AF">s</font><font face="Bookman" size="5" color="#3FD79A">e</font><font face="Helvetica" size="3" color="#6E30B1">q</font><font face="Times New Roman" size="2" color="#048405">u</font><font face="Bookman" size="5" color="#478CEE">a</font><font face="Garamond" size="2" color="#1DDC9A">t</font><font face="Trebuchet MS" size="7" color="#61D72C">.</font><font face="Georgia" size="3" color="#F0AE09"> </font><font face="Garamond" size="2" color="#2E584A">D</font><font face="Georgia" size="4" color="#0A9010">u</font><font face="Avant Garde" size="4" color="#CAFA43">i</font><font face="Avant Garde" size="7" color="#DB35E5">s</font><font face="Comic Sans MS" size="5" color="#D97DDC"> </font><font face="Palatino" size="4" color="#98DE57">a</font><font face="Avant Garde" size="4" color="#48D494">u</font><font face="Garamond" size="4" color="#396CD7">t</font><font face="Avant Garde" size="3" color="#DD97E7">e</font><font face="Arial" size="7" color="#86816A"> </font><font face="Courier New" size="1" color="#5AE034">i</font><font face="Georgia" size="4" color="#3DAE6E">r</font><font face="Impact" size="3" color="#3814FD">u</font><font face="Helvetica" size="3" color="#E7C65C">r</font><font face="Avant Garde" size="4" color="#5131CE">e</font><font face="Helvetica" size="7" color="#BE5721"> </font><font face="Arial" size="7" color="#67AB44">d</font><font face="Bookman" size="5" color="#AA8A46">o</font><font face="Helvetica" size="5" color="#3C8367">l</font><font face="Impact" size="6" color="#745392">o</font><font face="Bookman" size="7" color="#B35BFC">r</font><font face="Palatino" size="7" color="#8F65CA"> </font><font face="Times New Roman" size="1" color="#7DF658">i</font><font face="Garamond" size="5" color="#22AB5F">n</font><font face="Verdana" size="4" color="#CC2E57"> </font><font face="Courier New" size="3" color="#39059E">r</font><font face="Avant Garde" size="3" color="#6CED0B">e</font><font face="Arial" size="1" color="#BC157D">p</font><font face="Verdana" size="2" color="#A1EE93">r</font><font face="Times New Roman" size="2" color="#CD6E49">e</font><font face="Georgia" size="7" color="#51C844">h</font><font face="Arial Black" size="6" color="#91DF17">e</font><font face="Bookman" size="2" color="#5BC7D2">n</font><font face="Georgia" size="7" color="#B239B1">d</font><font face="Verdana" size="4" color="#66A5FF">e</font><font face="Garamond" size="1" color="#3F0AEC">r</font><font face="Helvetica" size="2" color="#FB1C92">i</font><font face="Georgia" size="1" color="#7AFE01">t</font><font face="Trebuchet MS" size="4" color="#3D3B9A"> </font><font face="Garamond" size="3" color="#09565C">i</font><font face="Garamond" size="2" color="#9E50C1">n</font><font face="Bookman" size="5" color="#0F5950"> </font><font face="Verdana" size="5" color="#4D37AE">v</font><font face="Times New Roman" size="4" color="#FBCC09">o</font><font face="Bookman" size="2" color="#B9DBAE">l</font><font face="Verdana" size="4" color="#06623A">u</font><font face="Trebuchet MS" size="2" color="#F3A4FB">p</font><font face="Palatino" size="3" color="#07FEA8">t</font><font face="Palatino" size="6" color="#88D7A6">a</font><font face="Verdana" size="7" color="#A28131">t</font><font face="Garamond" size="5" color="#C4CEB6">e</font><font face="Bookman" size="5" color="#3DD9E5"> </font><font face="Bookman" size="6" color="#2CF54C">v</font><font face="Georgia" size="6" color="#C83B34">e</font><font face="Courier New" size="4" color="#A8C0F3">l</font><font face="Palatino" size="4" color="#CD7A9A">i</font><font face="Impact" size="2" color="#F27203">t</font><font face="Arial" size="2" color="#B9CF6D"> </font><font face="Palatino" size="4" color="#1BE4D4">e</font><font face="Avant Garde" size="6" color="#2F82A9">s</font><font face="Trebuchet MS" size="7" color="#ACE820">s</font><font face="Garamond" size="6" color="#A1AB0F">e</font><font face="Impact" size="3" color="#377E69"> </font><font face="Comic Sans MS" size="3" color="#4DC67D">c</font><font face="Georgia" size="1" color="#DB22C0">i</font><font face="Arial" size="6" color="#200B51">l</font><font face="Palatino" size="3" color="#1420EE">l</font><font face="Avant Garde" size="5" color="#8B7F96">u</font><font face="Georgia" size="4" color="#0E8EE2">m</font><font face="Helvetica" size="3" color="#EA229E"> </font><font face="Avant Garde" size="6" color="#2811BB">d</font><font face="Arial" size="3" color="#E5F689">o</font><font face="Courier New" size="3" color="#330427">l</font><font face="Impact" size="7" color="#9ABDDE">o</font><font face="Impact" size="6" color="#8AD106">r</font><font face="Arial" size="3" color="#491A28">e</font><font face="Arial" size="4" color="#D4344C"> </font><font face="Comic Sans MS" size="3" color="#51823D">e</font><font face="Impact" size="5" color="#7B7F4F">u</font><font face="Arial Black" size="1" color="#7662F6"> </font><font face="Palatino" size="3" color="#FC2E14">f</font><font face="Times New Roman" size="7" color="#B4CFAD">u</font><font face="Bookman" size="4" color="#5A38F9">g</font><font face="Avant Garde" size="1" color="#BB5636">i</font><font face="Courier New" size="7" color="#8ECAE9">a</font><font face="Georgia" size="5" color="#2C17F7">t</font><font face="Arial" size="7" color="#124619"> </font><font face="Courier New" size="5" color="#3A2F66">n</font><font face="Times New Roman" size="6" color="#9A9E05">u</font><font face="Palatino" size="3" color="#AF499D">l</font><font face="Avant Garde" size="3" color="#BBF79E">l</font><font face="Avant Garde" size="7" color="#A7DB13">a</font><font face="Courier New" size="6" color="#78C46D"> </font><font face="Impact" size="5" color="#D26FE0">p</font><font face="Palatino" size="1" color="#9FF270">a</font><font face="Verdana" size="6" color="#B0A1D7">r</font><font face="Garamond" size="2" color="#53C3FD">i</font><font face="Comic Sans MS" size="3" color="#0D67F2">a</font><font face="Garamond" size="1" color="#3CFA52">t</font><font face="Courier New" size="4" color="#211F35">u</font><font face="Helvetica" size="6" color="#7D317C">r</font><font face="Palatino" size="5" color="#58A5DB">.</font><font face="Times New Roman" size="4" color="#43381B"> </font><font face="Impact" size="4" color="#0D7DBA">E</font><font face="Bookman" size="4" color="#B2904F">x</font><font face="Impact" size="7" color="#6F24AC">c</font><font face="Bookman" size="7" color="#4825A9">e</font><font face="Arial Black" size="3" color="#5FA4F3">p</font><font face="Helvetica" size="1" color="#00A511">t</font><font face="Comic Sans MS" size="6" color="#197E2B">e</font><font face="Helvetica" size="7" color="#9A13D9">u</font><font face="Comic Sans MS" size="3" color="#12E76C">r</font><font face="Impact" size="1" color="#222917"> </font><font face="Trebuchet MS" size="4" color="#3C344D">s</font><font face="Garamond" size="3" color="#68DE74">i</font><font face="Avant Garde" size="7" color="#C99B22">n</font><font face="Arial" size="4" color="#9A89CE">t</font><font face="Verdana" size="6" color="#65D0B8"> </font><font face="Comic Sans MS" size="4" color="#A1F0A6">o</font><font face="Bookman" size="5" color="#54EB5A">c</font><font face="Georgia" size="5" color="#107DE5">c</font><font face="Comic Sans MS" size="6" color="#050442">a</font><font face="Georgia" size="1" color="#EEB450">e</font><font face="Bookman" size="4" color="#76EE8F">c</font><font face="Courier New" size="2" color="#AC4B36">a</font><font face="Trebuchet MS" size="1" color="#C1125E">t</font><font face="Georgia" size="1" color="#5C40BB"> </font><font face="Helvetica" size="4" color="#CADA22">c</font><font face="Comic Sans MS" size="6" color="#8D237F">u</font><font face="Palatino" size="5" color="#2DE25F">p</font><font face="Arial" size="4" color="#9E6B7A">i</font><font face="Arial Black" size="1" color="#B4846A">d</font><font face="Avant Garde" size="1" color="#7A2ABF">a</font><font face="Georgia" size="2" color="#603E73">t</font><font face="Comic Sans MS" size="6" color="#FC2D87">a</font><font face="Courier New" size="6" color="#ECDFEC">t</font><font face="Palatino" size="3" color="#8FF216"> </font><font face="Palatino" size="5" color="#CB13B6">n</font><font face="Courier New" size="5" color="#81C12A">o</font><font face="Impact" size="4" color="#8822B5">n</font><font face="Avant Garde" size="7" color="#253019"> </font><font face="Comic Sans MS" size="7" color="#4573D1">p</font><font face="Helvetica" size="1" color="#4EA5E9">r</font><font face="Georgia" size="5" color="#73D1A1">o</font><font face="Avant Garde" size="4" color="#B6885F">i</font><font face="Avant Garde" size="7" color="#4234AD">d</font><font face="Bookman" size="6" color="#E78E7F">e</font><font face="Trebuchet MS" size="2" color="#88ABC9">n</font><font face="Trebuchet MS" size="4" color="#22836E">t</font><font face="Comic Sans MS" size="3" color="#8145CE">,</font><font face="Avant Garde" size="7" color="#4DF564"> </font><font face="Palatino" size="4" color="#BB357B">s</font><font face="Garamond" size="4" color="#16CB4B">u</font><font face="Courier New" size="6" color="#CB830D">n</font><font face="Courier New" size="4" color="#855DF5">t</font><font face="Bookman" size="3" color="#E1EA44"> </font><font face="Palatino" size="2" color="#C4C00A">i</font><font face="Garamond" size="6" color="#898FB1">n</font><font face="Verdana" size="2" color="#F10E5C"> </font><font face="Impact" size="1" color="#7199C4">c</font><font face="Bookman" size="2" color="#6BFC07">u</font><font face="Impact" size="3" color="#060E32">l</font><font face="Helvetica" size="7" color="#6059DA">p</font><font face="Verdana" size="3" color="#BE4A4E">a</font><font face="Comic Sans MS" size="4" color="#334FB7"> </font><font face="Garamond" size="1" color="#89F4E4">q</font><font face="Bookman" size="2" color="#3C0DEE">u</font><font face="Impact" size="1" color="#D8E328">i</font><font face="Impact" size="2" color="#DE4DD9"> </font><font face="Comic Sans MS" size="4" color="#D6847C">o</font><font face="Palatino" size="3" color="#13BB92">f</font><font face="Helvetica" size="7" color="#A406CB">f</font><font face="Bookman" size="1" color="#429995">i</font><font face="Avant Garde" size="5" color="#8CF750">c</font><font face="Arial" size="4" color="#0BC3C4">i</font><font face="Trebuchet MS" size="5" color="#1B3E73">a</font><font face="Arial" size="5" color="#77986E"> </font><font face="Comic Sans MS" size="3" color="#0C9FE6">d</font><font face="Arial Black" size="4" color="#CC134D">e</font><font face="Georgia" size="7" color="#B50592">s</font><font face="Avant Garde" size="7" color="#F3593E">e</font><font face="Arial" size="5" color="#C726C3">r</font><font face="Garamond" size="7" color="#3F0981">u</font><font face="Garamond" size="4" color="#743AE1">n</font><font face="Garamond" size="1" color="#3B01FE">t</font><font face="Verdana" size="7" color="#5885D4"> </font><font face="Helvetica" size="6" color="#2E24E0">m</font><font face="Bookman" size="1" color="#6893FB">o</font><font face="Garamond" size="7" color="#2A2860">l</font><font face="Helvetica" size="3" color="#C33D74">l</font><font face="Verdana" size="6" color="#92D24C">i</font><font face="Garamond" size="2" color="#129355">t</font><font face="Comic Sans MS" size="3" color="#FDB885"> </font><font face="Impact" size="6" color="#0D38BD">a</font><font face="Arial Black" size="7" color="#9BBB83">n</font><font face="Arial" size="7" color="#302BC3">i</font><font face="Arial Black" size="6" color="#14EBDE">m</font><font face="Comic Sans MS" size="3" color="#B5F4F3"> </font><font face="Arial Black" size="2" color="#5E6758">i</font><font face="Verdana" size="3" color="#6B7EA3">d</font><font face="Times New Roman" size="7" color="#05F895"> </font><font face="Verdana" size="7" color="#F01A3F">e</font><font face="Georgia" size="4" color="#E2F62B">s</font><font face="Avant Garde" size="4" color="#0CB413">t</font><font face="Verdana" size="5" color="#96C9AB"> </font><font face="Georgia" size="2" color="#92C072">l</font><font face="Avant Garde" size="3" color="#CE7DDC">a</font><font face="Impact" size="7" color="#5E47A0">b</font><font face="Courier New" size="5" color="#69B364">o</font><font face="Verdana" size="2" color="#110A50">r</font><font face="Arial Black" size="2" color="#89702E">u</font><font face="Arial Black" size="7" color="#7087DF">m</font><font face="Avant Garde" size="1" color="#943E71">.</font>
+                    </p>
+                    <details>
+                        <summary>Click here to see script.</summary>
+                        <p>Written in Python 3<pre><code>import random
+
+def decision(probability):
+    return random.random() < probability
+
+def getCharStyle(char):
+	face = ""
+	size = ""
+	color = ""
+	underline = False
+	emphasis = False
+	superscript = False
+	subscript = False
+	highlight = False
+	font_styles = ['Georgia', 'Arial', 'Times New Roman', 
+	'Palatino', 'Garamond', 'Bookman', 'Avant Garde', 
+	'Verdana', 'Comic Sans MS', 'Trebuchet MS', 
+	'Arial Black', 'Impact', 'Courier New', 'Helvetica']
+	# get color
+	if decision(1.0):
+		r = lambda: random.randint(0,255)
+		color = str('#%02X%02X%02X' % (r(),r(),r()))
+	if decision(1.0):
+		size = str(random.randint(1, 7))
+	if decision(1.0):
+		face = str(random.choice(font_styles))
+	s = "<font face=\"" + face + "\" size=\"" + size + 
+	"\" color=\"" + color + "\">" + char + "</font>"
+	return s
+
+
+s = # omitted lorem ipsum string to save space
+outputS = ""
+for idx, char in enumerate(s):
+	outputS += getCharStyle(char)
+
+print (outputS)</code></pre></p>
+                    </details>
+                    <p><a href="images/generative-art.png" download>
+                        <font color="#217AC0">Download this as a PNG!</font>
+                    </a></p>
+                    <h3>Images, Multimedia, and Embedded Content</h3>
+
+                    <p>You might be wondering why the video was played at the top of the page (besides it being a nice background). It is to demonstrate how easy inserting video is with the <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/video"><font color="#217AC0">&lt;video&gt;</font></a></code> tag as well as have it <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/video#attr-autoplay"><font color="#217AC0">autoplay</font></a></code>. You can also insert video through embed links, like this video of drawing pixel art using HTML tables.</p>
+                    					<img width="100%" src="images/separator.png">
+<iframe width="500" height="315" src="https://www.youtube.com/embed/4M2wcyezJT0" frameborder="0" allowfullscreen></iframe>
+					<img width="100%" src="images/separator.png">
+					<p>Images are even easier with the <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/img"><font color="#217AC0">&lt;img&gt;</font></a></code> tag. The demarcating lines above and below the video are actually PNG images which are often used as icons, separators, texturing due to its transparent nature. There are a wide variety of images that we can insert ranging from static (JPEG, PNG, SVG) to dynamic (GIFs, Animated SVGs). Three different types of images are shown below in a <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/table"><font color="#217AC0">&lt;table&gt;</font></a></code>.</p>
+					<table border="0" cellspacing="6" width="100%">
+			            <tr>
+			                <td width="170"><img width="100%" height="100%" src="images/html.jpg"></td>
+			                <td width="170"><img width="100%" height="100%" src="images/nyan.gif"></td></td>
+			                <td width="160"  bgcolor="#FC0">
+			                	<svg viewBox="0 0 160 160" width="160" height="160">
+					  <circle cx="80" cy="80" r="50" />
+					  <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+					    <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="#FFF">
+					      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="1s" repeatCount="indefinite" />
+					    </path>
+					  </g>
+					  <path d="M 50,0 A 50,50 0 0,0 -50,0Z" transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" />
+					</svg>
+
+			                </td>
+			            </tr>
+			           
+			            </table>
+
+			             <table border="1px" bordercolor="#e1e1e8" frame="void" cellspacing="6" cellpadding="5" width="100%">
+					            <tr>
+					            	
+			            	<td align="center" bgcolor="#f7f7f9" width="170">JPEG</td>
+			                <td align="center" bgcolor="#f7f7f9" width="170">GIF</td>
+			                <td align="center" bgcolor="#f7f7f9" width="160">Animated SVG</td>
+
+					            </tr>
+					            
+				            </table>
+				            <table width="100%">
+				            	<tr>
+					                <td height="5" colspan="3"></td>
+					            </tr>
+				            </table>
+					
+					We can even add a little bit of interactivity in each image by assigning the image to a map through the attribute <code><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-usemap"><font color="#217AC0">&lt;usemap&gt;</font></a></code> and the <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/map"><font color="#217AC0">&lt;map&gt;</font></a></code> element. Try clicking on the <strong>cube</strong> and the <strong>shadow</strong> in the image below.</p>
+
+					<img src="images/cube.png" alt="" usemap="#Map" />
+<map name="Map" id="Map">
+    <area alt="" title="" href="https://en.wikipedia.org/wiki/Cube" shape="rect" coords="415,52,262,177" />
+    <area alt="" title="" href="https://en.wikipedia.org/wiki/Shadow" shape="rect" coords="131,155,279,232" />
+    <div align="right">An image map.</div>
+</map>
+                    <a id="extended"><h3>Interactivity, Styling/Animation, and Going Forward</h3></a>
+                    <p>Unfortunately, we have reached just about the limits of what HTML alone is able to accomplish stylistically and interactively. Now, a few notes to the discerning programmer. This webpage was made as an extreme example of pushing
+                    HTML to its limits and being able to produce a reasonably tidy and responsive webpage without resorting to any CSS or JavaScript. However, there are some things that HTML (and this webpage) does well and others that it does not so well at and should never be done (but are done so in this case because of this unique constraint).</p>
+                    <p>HTML, by its name, is a <em>markup language</em> which means that it is  primarily an 
+                 		<ol>
+                 			<li>outline for labeling (describing) content</li>
+                 			<li>instruction for how the content should be processed.</li>
+                 		</ol>
+                 		The key to understanding HTML is understanding its semantic and procedural nature. 
+                    <p>It's semantic nature lies in its ability to 
+                    <ul>
+                    	<li>describe (through tags) what a block or section of content is (for example, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/p"><font color="#217AC0">&lt;p&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/ul"><font color="#217AC0">&lt;ul&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/figure"><font color="#217AC0">&lt;figure&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/dl"><font color="#217AC0">&lt;dl&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/img"><font color="#217AC0">&lt;img&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/audio"><font color="#217AC0">&lt;audio&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/video"><font color="#217AC0">&lt;video&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/div"><font color="#217AC0">&lt;div&gt;</font></a></code>, etc.)</li>
+                    	<li>describe the semantic meaning of a certain word, line, or piece of text (whether it is <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/code"><font color="#217AC0">&lt;code&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/q"><font color="#217AC0">&lt;q&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/em"><font color="#217AC0">&lt;em&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/strong"><font color="#217AC0">&lt;strong&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/a"><font color="#217AC0">&lt;a&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/abbr"><font color="#217AC0">&lt;abbr&gt;</font></a></code>, etc.)</li>
+                    	<li>how these blocks of content are grouped and sectioned in a general outline for the page (<code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/header"><font color="#217AC0">&lt;header&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/footer"><font color="#217AC0">&lt;footer&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/nav"><font color="#217AC0">&lt;nav&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/section"><font color="#217AC0">&lt;section&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/article"><font color="#217AC0">&lt;article&gt;</font></a></code>, <code><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/Heading_Elements"><font color="#217AC0">&lt;h1-h6&gt;</font></a></code>).</li>
+                    </ul>
+                    </p>
+                    <p>
+                    	Now the confusing part is how semantics and style are related to each other. You can clearly see on this page that there is some styling, not only on text, but also on the positioning of elements related to the page and each other. Some of these styles are applied automatically when we write an HTML tag, others are written ourselves through various HTML attributes and tricks regarding the table tag. There are exceptions, but a good general rule, is to never
+                    	<em>purposely try</em> to apply any form of styles in the HTML document by yourself. This means that all of the styling attributes (size, color, bgcolor, align, face, border, width, height, background) are off limits. Using a table to position content is a definite no-no. In fact, a "correct" version of this page would look something along the lines of <a href="correct.html">this</a>.
+                    </p>
+                    <img src="images/screenshot.png" width="100%"></img>
+                    <p>
+                    	Immediately we see that the general outline of the document is preserved. Upon further inspection of the source code, we see that HTML preserves what is most important: the content, the hierarchy, what each block of content is semantically meant to be (whether it is a paragraph, a table, a link, a heading section). Visually, we see the application of a few minimal styles (font size, emphasis, underline, italics) that help differentiate the semantic meaning of the tags.
+                    </p>
+                    <p>This will allow us as programmers to separate content from style and content from interaction.</p>
+                    <h4>So how do we style or otherwise interact with elements?</h4>
+                    <p>This is where the procedural nature of HTML comes into play. HTML allows us to further classify each tag (piece of content) with a unique identifier (id) or group tags together (class). This allows us to target specific tags or groups of tags and apply a set of styles to those tags using style rules in a Cascading Style Sheet (CSS). We are also able to target these tags and make them interact with each other, with the browser environment, and programmatically control them through JavaScript (JS). A good way to remember this is that HTML is structural, CSS is presentational, and JavaScript is behavioral. While code for each should remain distinctly separate, they also interact with each other in many ways.</p>
+                    	<ul>
+                    	    <li>HTML help classify tags for identification within CSS and JS.</li>
+                    		<li>CSS can style HTML elements.</li>
+                    		<li>JS can programatically apply CSS styles.</li>
+                    		<li>JS can programatically modify the HTML document (DOM).</li>
+                    		<li>and many more ...</li>
+                    	</ul>
+                    <p>Hopefully this page was helpful in gaining a bit more insight into useful HTML tags, some creative applications, and how HTML is meant to be used.</p>
+                    <p>Thanks for reading!</p>
+                    <p><a href="#top"><small>Take me to the top.</small></a></p>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </font>
+</body>
+
+</html>
